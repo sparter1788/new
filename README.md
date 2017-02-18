@@ -33,8 +33,8 @@ $repos = array(
  * GitHub (https://help.github.com/articles/post-receive-hooks) to http://deploy.some.site/github.php
  * Bitbucket (https://confluence.atlassian.com/display/BITBUCKET/POST+Service+Management) to http://deploy.some.site/bitbucket.php
 
-### Private repos
-* create local ssh key
+### Private repos Bitbucket
+* create local ssh key 
 ```bash
 ssh-keygen -t rsa -f ~/.ssh/id_rsa -C 'Bitbucket deploy'
 ```
